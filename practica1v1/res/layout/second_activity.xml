@@ -55,11 +55,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:layout_marginTop="20sp">
+            >
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textColor="@color/Chocolate"
             />
@@ -70,11 +71,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:layout_marginTop="20sp">
+            >
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textColor="@color/Chocolate"
             />
@@ -85,11 +87,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:layout_marginTop="20sp">
+            >
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textColor="@color/Chocolate"
              />
@@ -100,11 +103,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:layout_marginTop="20sp">
+            >
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:textSize="20sp"
             android:textColor="@color/Chocolate"
             />
