@@ -10,7 +10,7 @@
 
     <FrameLayout
         android:id="@+id/fragmentinicio_frame"
-        android:layout_width="319dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
@@ -94,7 +94,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="30dp"
         android:text="@string/user"
-        android:textSize="15dp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/clave"
@@ -145,8 +145,9 @@
         android:id="@+id/boton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/main_textView_foot"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/clave"
+        android:layout_below="@+id/fragmentinicio_frame"
         android:gravity="center"
         android:src="@drawable/ic_menu_send" />
 

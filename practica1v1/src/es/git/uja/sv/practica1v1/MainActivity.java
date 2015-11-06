@@ -74,7 +74,7 @@ public class MainActivity extends Activity {
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 			View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-			
+			//Almacenamos en variables los elementos de la actividad principal
 			View lanzar = rootView.findViewById(R.id.boton1);
 		    final View usuario=rootView.findViewById(R.id.usuario);
 		    final View password=rootView.findViewById(R.id.password);
@@ -86,7 +86,7 @@ public class MainActivity extends Activity {
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
-				
+					//Comprobamos que ninguno de los campos este vacío y hay alguno mandamos un toast indicando que los datos están incompletos
 					if(((EditText)usuario).getText().toString().equals("")||((EditText)password).getText().toString().equals("")||((EditText)ip).getText().toString().equals("")||((EditText)port).getText().toString().equals(""))
 					{
 						
@@ -100,6 +100,7 @@ public class MainActivity extends Activity {
 					} else { 
 					Intent intent= new Intent();
 					intent.setClass(getActivity(), SecondActivity.class);
+					//Pasamos los valores de los elementos a la siguiente actividad
 					intent.putExtra("user", ((EditText)usuario).getText().toString());
 					intent.putExtra("pass", ((EditText)password).getText().toString());
 					intent.putExtra("ip", ((EditText)ip).getText().toString());
